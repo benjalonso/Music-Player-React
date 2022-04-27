@@ -6,10 +6,11 @@ body {
 
 .barraControl {
     background-color: rgb(39, 39, 39);
-    width: 100%;
-    margin: 0;
+    width: 600px;
+    margin: auto;
     height: 50px;
     justify-content: center;
+    position: sticky;
 }
 
 .iconos {
@@ -31,15 +32,12 @@ h1 {
     color: green;
 }
 
-.screen {
-    height: 538px;
-    background-image: url(https://www.freepik.es/vector-gratis/fondo-tecnologia-futurista_8552347.htm);
-    background-size: cover;
-}
-
-.listOfSongs {
-    border: 1px solid green;
+.listOfSongs{
+    background-color: rgb(17, 16, 16);
+    color: rgba(228, 207, 207, 0.74);
+    width: 600px;
+    margin: auto;
 }
 .listOfSongs:hover {
-    background-color: rgba(128, 128, 128, 0.459);
+    background-color: rgba(54, 48, 48, 0.781);
 }

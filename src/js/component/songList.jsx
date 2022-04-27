@@ -24,9 +24,11 @@ const SongList = ({ songs, onClick }) => {
 					);
 				})
 			) : (
-				<li>
-					<div>Cargando...</div>
-				</li>
+				<div
+					class="spinner-border text-success mx-auto my-5"
+					role="status">
+					<span class="visually-hidden">Loading...</span>
+				</div>
 			)}
 		</ul>
 	);
