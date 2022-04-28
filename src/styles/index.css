@@ -41,3 +41,11 @@ h1 {
 .listOfSongs:hover {
     background-color: rgba(54, 48, 48, 0.781);
 }
+.playTop {
+    position: fixed;
+    color: green;
+    font-size: 50px;
+    top: 65px;
+    left: 956px;
+    z-index: 1;
+}
