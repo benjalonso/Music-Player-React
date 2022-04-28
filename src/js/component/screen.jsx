@@ -19,7 +19,7 @@ const Screen = () => {
 				<i className="fa-brands fa-spotify fa-beat"></i> Music Player
 			</h1>
 			<div className="screen">
-				<i class="fa-solid fa-circle-play playTop"></i>
+				<i className="fa-solid fa-circle-play playTop"></i>
 				<SongList songs={songs} />
 			</div>
 		</div>
